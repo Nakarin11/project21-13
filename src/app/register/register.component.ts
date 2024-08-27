@@ -49,7 +49,7 @@ export class RegisterComponent {
       this.userRegister.password = this.RegisterFrom.value.password;
 
       if (this.userRegister.email == "admin@gmail.com" 
-        && this.userRegister.password == "123456789") {
+        && this.userRegister.password == "11111111") {
         alert("Registration Successful");
       } else {
         alert("Registration Failed");
